@@ -148,6 +148,10 @@ body {
   margin-bottom: 72px;
 }
 
+.customers .section-header {
+  line-height: 1.1;
+}
+
 .our-team {
   background-color: var(--light);
   letter-spacing: 0.02em;
@@ -202,30 +206,29 @@ body {
   justify-content: center;
 }
 
+.customer-item {
+  width: 168px;
+  height: 88px;
+}
+
 .customer-link {
-  display: inline-block;
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   color: var(--subtle-text);
+  border: 1px solid var(--subtle-text);
+  border-radius: 4px;
 }
 
-.customer-item:hover,
-.customer-item:focus {
+.customer-link:hover,
+.customer-link:focus {
   border: 1px solid var(--pressed-state);
 }
 .customer-link:hover,
 .customer-link:focus {
   color: var(--pressed-state);
-}
-
-.customer-item {
-  width: 168px;
-  height: 88px;
-  border: 1px solid var(--subtle-text);
-  border-radius: 4px;
 }
 
 .customer-icon {
